@@ -11,6 +11,9 @@ public class PersonCheck {
             return "Paul";
         }else if (zahl >20 && zahl <=40){
             return "Sascha";
+        }else if (zahl >40 && zahl <=60){
+            return "Uncle Peter";
+            
         }
         return "not specified";
     }
