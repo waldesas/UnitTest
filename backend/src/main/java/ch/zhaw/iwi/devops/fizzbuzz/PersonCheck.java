@@ -13,7 +13,8 @@ public class PersonCheck {
             return "Sascha";
         }else if (zahl >40 && zahl <=60){
             return "Uncle Peter";
-            
+         }else if (zahl >90){
+            return "Grandma Alice";
         }
         return "not specified";
     }

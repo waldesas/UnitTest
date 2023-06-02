@@ -61,4 +61,17 @@ public class PersonCheckTest {
         Assert.assertEquals("Uncle Peter", ac.personCheck(33));
     }
  
+    @Test
+
+    public void personCheckGrandma(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("Alice", ac.personCheck(33));
+    }
+
+    @Test
+
+    public void personCheckGrandma2(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("Grandma Alice", ac.personCheck(103));
+    }
 }
