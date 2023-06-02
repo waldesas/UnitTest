@@ -9,6 +9,8 @@ public class PersonCheck {
             return "Jonas";
         }else if (zahl >10 && zahl <= 20){
             return "Paul";
+        }else if (zahl >20 && zahl <=40){
+            return "Sascha";
         }
         return "not specified";
     }

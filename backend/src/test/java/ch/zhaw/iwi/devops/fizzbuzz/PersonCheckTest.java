@@ -25,5 +25,26 @@ public class PersonCheckTest {
         PersonCheck ac = new PersonCheck();
         Assert.assertEquals("Hans", ac.personCheck(18));
     }
+
+    @Test
+
+    public void personCheckAdult(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("Sascha", ac.personCheck(30));
+    }
+
+    @Test
+
+    public void personCheckAdult2(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("Hans", ac.personCheck(100));
+    }
+
+    @Test
+
+    public void personCheckAdult3(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("Sasa", ac.personCheck(33));
+    }
  
 }
