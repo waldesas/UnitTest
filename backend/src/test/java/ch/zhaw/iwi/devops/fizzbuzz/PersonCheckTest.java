@@ -74,4 +74,11 @@ public class PersonCheckTest {
         PersonCheck ac = new PersonCheck();
         Assert.assertEquals("Grandma Alice", ac.personCheck(103));
     }
+
+    @Test
+
+    public void personCheckNotSpecified(){
+        PersonCheck ac = new PersonCheck();
+        Assert.assertEquals("not specified", ac.personCheck(90));
+    }
 }
